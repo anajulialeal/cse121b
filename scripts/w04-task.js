@@ -7,31 +7,31 @@ let myProfile = {
     favoriteFoods: [
         "Grape",
         "Ice Cream",
-        "Bananas",
-        "Mango",
-        "Gummy Candy"
+        "Gummy Candy",
+        "Japanese Candies",
+        "Mango"
     ],
     hobbies: [
-        "Playing with my husband",
-        "Walking with my dog Billy",
-        "Reading a book",
-        "Watching Naruto Shippuden",
-        "Talking with my friends"
+        "Playing LOL with my husband",
+        "Walking with my dog",
+        "Talking with my friends",
+        "Reading some book",
+        "Watching Naruto Shippuden"
     ],
     placesLived: [],
 };
 /* Populate Profile Object with placesLive objects */
 myProfile.placesLived.push(
     {
-        place: "Piracicaba, Brazil",
+        place: "Piracicaba",
         length: "3 Years"
     },
     {
-        place: "Monte Mor, Brazil",
+        place: "Monte Mor",
         length: "16 Years"
     },
     {
-        place: "Hortolandia, Brazil",
+        place: "Hortolandia",
         length: "9 Months"
     }
 );
