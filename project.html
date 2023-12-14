@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="styles/final-project.css">
+</head>
+<body>
+    <h1>Pokédex</h1>
+    <label for="type-filter">Filter by Type:</label>
+    <select id="type-filter">
+        <option value="all">All</option>
+        <option value="grass">Grass</option>
+        <option value="fire">Fire</option>
+        <option value="bug">Bug</option>
+        <option value="poison">Poison</option>
+        <option value="flying">Flying</option>
+        <option value="normal">Normal</option>
+    </select>
+    
+    <ul id="pokemon-list">
+        <!-- Pokémon cards will be displayed here -->
+    </ul>
+
+    <div id="pokemon-popup" class="pokemon-popup">
+        <h2 id="pokemon-name"></h2>
+        <p><strong>Height:</strong> <span id="pokemon-height"></span></p>
+        <p><strong>Weight:</strong> <span id="pokemon-weight"></span></p>
+        <p><strong>Abilities:</strong> <span id="pokemon-abilities"></span></p>
+        <button id="close-popup">Close</button>
+    </div>
+    <footer>
+        &copy;<span id="year"></span> | CSE 121b | Final Project
+    </footer>
+    <script src="scripts/final-project.js"></script>
+
+</body>
+</html>
